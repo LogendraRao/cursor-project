@@ -1,0 +1,65 @@
+{
+  "url": "https://www.penangport.gov.my/ms/",
+  "timestamp": "2025-08-25T04:01:10.416Z",
+  "uiuxScore": 80,
+  "categories": {
+    "visualDesign": {
+      "score": 25,
+      "maxScore": 25,
+      "findings": [
+        "✅ Good color contrast detected",
+        "✅ Typography hierarchy established",
+        "✅ Structured layout system detected",
+        "✅ Clear visual hierarchy established",
+        "✅ Branding elements present"
+      ]
+    },
+    "userExperience": {
+      "score": 20,
+      "maxScore": 25,
+      "findings": [
+        "✅ Comprehensive navigation menu",
+        "✅ Breadcrumb navigation present",
+        "❌ No search functionality - major UX issue",
+        "✅ Structured content organization",
+        "✅ Clear call-to-action elements",
+        "✅ Mobile-friendly navigation"
+      ]
+    },
+    "accessibility": {
+      "score": 20,
+      "maxScore": 20,
+      "findings": [
+        "✅ Excellent image accessibility",
+        "✅ Semantic HTML structure",
+        "✅ Keyboard navigation support",
+        "✅ Good color contrast"
+      ]
+    },
+    "modernStandards": {
+      "score": 15,
+      "maxScore": 20,
+      "findings": [
+        "✅ Modern CSS layout techniques",
+        "✅ Responsive design implementation",
+        "✅ Modern JavaScript features",
+        "❌ Limited image optimization"
+      ]
+    },
+    "performance": {
+      "score": 0,
+      "maxScore": 10,
+      "findings": [
+        "❌ Slow load time: 5687ms"
+      ]
+    }
+  },
+  "screenshots": [
+    "01-main-page-uiux.png",
+    "02-mobile-uiux.png"
+  ],
+  "recommendations": [
+    "Implement search functionality for better user experience",
+    "Optimize page load speed for better user experience"
+  ]
+}

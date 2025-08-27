@@ -1,0 +1,47 @@
+{
+  "url": "https://www.penangport.gov.my/ms/",
+  "timestamp": "2025-08-25T03:52:44.494Z",
+  "findings": [
+    "✅ HTTPS is enabled",
+    "📄 Page Title: Suruhanjaya Pelabuhan Pulau Pinang - Utama",
+    "✅ Page title is within 70 characters",
+    "📝 Meta Description: SPPP telah ditubuhkan pada 1 Januari 1956 di bawah Akta Suruhanjaya Pelabuhan Pulau Pinang, 1955. \nM...",
+    "✅ Meta description is within 160 characters",
+    "✅ Language toggle found (BM/English)",
+    "❌ Search function not found",
+    "✅ Main navigation menu found",
+    "❌ About Us section not found",
+    "✅ Contact section found",
+    "✅ News section found",
+    "✅ Services section found",
+    "✅ Social media links found",
+    "✅ MyGov portal link found",
+    "📸 Images: 63/64 have alt attributes (98%)",
+    "❌ Not all images have alt attributes",
+    "📋 Header tags: H1=1, H2=1",
+    "✅ H1 header tag present",
+    "✅ Viewport meta tag found (responsive design)",
+    "✅ Mobile menu/version detected",
+    "🐌 Page load time: 5560ms (exceeds 5 second requirement)",
+    "🏷️ SPLaSK tags found: 2",
+    "✅ FAQ Section found",
+    "✅ Client Charter found",
+    "✅ Privacy Policy found",
+    "✅ Sitemap found",
+    "📊 Overall Compliance Score: 4/8 (50%)"
+  ],
+  "compliance": {
+    "https": true,
+    "dualLanguage": true,
+    "responsive": true,
+    "searchFunction": false,
+    "metaTags": false,
+    "accessibility": false,
+    "performance": false,
+    "spLaSK": true
+  },
+  "spLaSKTags": [
+    "splwpk-open-data=\"splwpk-open-data\"",
+    "splwpk-mobile-apps=\"splwpk-mobile-apps\""
+  ]
+}

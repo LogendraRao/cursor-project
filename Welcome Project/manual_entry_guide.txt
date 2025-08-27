@@ -1,0 +1,50 @@
+
+📋 MANUAL SURVEY DATA ENTRY GUIDE
+================================
+
+Since the Numbers file cannot be directly read, here are alternative approaches:
+
+1. EXPORT FROM NUMBERS:
+   - Open the Numbers file in Numbers app
+   - File → Export To → CSV or Excel
+   - Save as .csv or .xlsx file
+
+2. MANUAL DATA ENTRY:
+   - Copy responses from Numbers file
+   - Paste into a text file or spreadsheet
+   - Use the template structure below
+
+3. SURVEY RESPONSE TEMPLATE:
+   {
+     "respondent_id": "R001",
+     "department": "IT",
+     "role": "Manager",
+     "frequency_of_use": "Daily",
+     "reasons_for_use": ["Information", "Task Completion"],
+     "positive_aspects": ["Easy navigation", "Clear layout"],
+     "pain_points": ["Slow loading", "No search"],
+     "desired_features": ["Advanced search", "Mobile app"],
+     "reference_sites": ["Google", "Amazon"],
+     "design_preferences": ["Clean", "Professional"],
+     "additional_ideas": ["Dashboard", "Notifications"]
+   }
+
+4. KEY QUESTIONS TO ANALYZE:
+   - How often do they use the website?
+   - What frustrates them most?
+   - What features do they want?
+   - What other sites do they like?
+   - What design elements do they prefer?
+
+5. PRIORITY CATEGORIES:
+   - Critical (Must-have)
+   - Important (Should-have)
+   - Desirable (Nice-to-have)
+   - Future consideration
+
+6. ANALYSIS FOCUS:
+   - Common pain points
+   - Most requested features
+   - Design preferences
+   - User workflow needs
+   - Mobile usage patterns
