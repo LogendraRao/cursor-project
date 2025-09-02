@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastruktur & Jalinan Perhubungan - SPPP Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Header Styles */
+        .header-top {
+            background: #003366;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .header-top .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .staff-portal-link {
+            background: #0066CC;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .staff-portal-link:hover {
+            background: #0052A3;
+        }
+
+        .header-main {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 3px solid #0066CC;
+        }
+
+        .header-main .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo h1 {
+            color: #003366;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation Styles - STANDARDIZED */
+        nav {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            padding: 0;
+        }
+
+        .nav-primary {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-primary a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-primary a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-primary a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .page-header h1 {
+            color: #003366;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .page-header p {
+            font-size: 1.3em;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Infrastructure Grid */
+        .infrastructure-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .infrastructure-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .infrastructure-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .infrastructure-card h3 {
+            color: #003366;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .infrastructure-card ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .infrastructure-card ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            color: #666;
+        }
+
+        .infrastructure-card ul li:before {
+            content: "✓";
+            color: #0066CC;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 12px;
+            margin: 50px 0;
+        }
+
+        .stats-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FF6600;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366;
+            color: white;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 20px;
+            color: #0066CC;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-main .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+            }
+
+            .page-header h1 {
+                font-size: 2em;
+            }
+
+            .stats-section h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                📞 +60 4-210 2211 | ✉️ info@penangport.gov.my
+            </div>
+            <a href="/staff-portal" class="staff-portal-link">Portal Staf</a>
+        </div>
+    </div>
+
+    <!-- Header Main -->
+    <div class="header-main">
+        <div class="container">
+            <div class="logo">
+                <div style="width: 60px; height: 60px; background: #0066CC; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">SPPP</div>
+                <h1>Suruhanjaya Pelabuhan Pulau Pinang</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation - STANDARDIZED -->
+    <nav>
+        <div class="nav-primary">
+            <a href="/">Utama</a>
+            <a href="/about">Profil</a>
+            <a href="/infrastructure" class="active">Infrastruktur & Jalinan Perhubungan</a>
+            <a href="/services">Perkhidmatan</a>
+            <a href="/services/training">Latihan & Pembangunan</a>
+            <a href="/news">Berita & Media</a>
+            <a href="/contact">Hubungi Kami</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>Infrastruktur & Jalinan Perhubungan</h1>
+            <p>Kemudahan pelabuhan yang lengkap dan rangkaian perhubungan strategik untuk menyokong operasi pelabuhan yang cekap dan berkesan</p>
+        </section>
+
+        <!-- Infrastructure Grid -->
+        <section class="infrastructure-grid">
+            <div class="infrastructure-card">
+                <div class="card-icon">🏗️</div>
+                <h3>Kemudahan Pelabuhan</h3>
+                <ul>
+                    <li>Terminal kontena berkapasiti tinggi</li>
+                    <li>Kemudahan kargo dan dok penumpang</li>
+                    <li>Sistem pengendalian automatik</li>
+                    <li>Gudang dan kemudahan penyimpanan</li>
+                </ul>
+            </div>
+
+            <div class="infrastructure-card">
+                <div class="card-icon">🚛</div>
+                <h3>Rangkaian Perhubungan</h3>
+                <ul>
+                    <li>Pautan lebuhraya strategik</li>
+                    <li>Sambungan keretapi dan lapangan terbang</li>
+                    <li>Logistik bersepadu</li>
+                    <li>Akses mudah ke kawasan perindustrian</li>
+                </ul>
+            </div>
+
+            <div class="infrastructure-card">
+                <div class="card-icon">💻</div>
+                <h3>Infrastruktur Digital</h3>
+                <ul>
+                    <li>Sistem pengurusan pelabuhan</li>
+                    <li>Platform e-perkhidmatan</li>
+                    <li>Pemantauan masa nyata</li>
+                    <li>Sistem komunikasi canggih</li>
+                </ul>
+            </div>
+
+            <div class="infrastructure-card">
+                <div class="card-icon">🛡️</div>
+                <h3>Infrastruktur Keselamatan</h3>
+                <ul>
+                    <li>Pemantauan CCTV 24/7</li>
+                    <li>Kawalan akses biometrik</li>
+                    <li>Rondaan keselamatan berterusan</li>
+                    <li>Sistem penggera kecemasan</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <h2>Statistik Infrastruktur</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">Terminal Aktif</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2.5km</div>
+                    <div class="stat-label">Panjang Dermaga</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500ha</div>
+                    <div class="stat-label">Keluasan Pelabuhan</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Operasi Berterusan</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p>📍 Suruhanjaya Pelabuhan Pulau Pinang<br>
+                George Town, Pulau Pinang<br>
+                📞 +60 4-210 2211<br>
+                ✉️ info@penangport.gov.my</p>
+            </div>
+            <div class="footer-section">
+                <h3>Pautan Pantas</h3>
+                <a href="/about">Profil SPPP</a>
+                <a href="/infrastructure">Infrastruktur</a>
+                <a href="/services">Perkhidmatan</a>
+                <a href="/careers">Kerjaya</a>
+            </div>
+            <div class="footer-section">
+                <h3>Maklumat</h3>
+                <a href="/resources">Sumber</a>
+                <a href="/partnerships">Perkongsian</a>
+                <a href="/legal/privacy">Dasar Privasi</a>
+                <a href="/legal/terms">Terma Penggunaan</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

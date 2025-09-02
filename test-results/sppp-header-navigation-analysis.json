@@ -1,0 +1,1269 @@
+{
+  "headerAnalysis": [
+    {
+      "page": "Homepage",
+      "url": "/",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": true,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "SPPP - Enhanced Homepage with Real Content",
+        "h1Text": "SELAMAT DATANG KE PORTAL RASMI PENANG PORT",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about/leadership"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Infrastructure",
+      "url": "/infrastructure",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/infrastructure",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": false,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "Infrastruktur & Jalinan Perhubungan - SPPP Wireframe",
+        "h1Text": "Infrastruktur & Jalinan Perhubungan",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "About Profile",
+      "url": "/about",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/about",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": true,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "SPPP - Organization Profile",
+        "h1Text": "Profil Organisasi SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "About Leadership",
+      "url": "/about/leadership",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/about/leadership",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": true,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "SPPP - Leadership Team Wireframe",
+        "h1Text": "Pasukan Kepimpinan SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Services",
+      "url": "/services",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": false,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "Perkhidmatan & Program - SPPP Wireframe",
+        "h1Text": "Perkhidmatan & Program SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Resources",
+      "url": "/resources",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/resources",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": false,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "Sumber & Penerbitan - SPPP Wireframe",
+        "h1Text": "Sumber & Penerbitan SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          },
+          {
+            "text": "Hubungi",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "News",
+      "url": "/news",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/news",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": false,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "Berita & Acara - SPPP Wireframe",
+        "h1Text": "Berita & Acara SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          },
+          {
+            "text": "Hubungi",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Careers",
+      "url": "/careers",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/careers",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": true,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "SPPP - Career Opportunities Wireframe",
+        "h1Text": "Peluang Kerjaya di SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Partnerships",
+      "url": "/partnerships",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/partnerships",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": false,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "Perkongsian & Kerjasama - SPPP Wireframe",
+        "h1Text": "Perkongsian & Kerjasama SPPP",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          },
+          {
+            "text": "Hubungi",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Staff Portal",
+      "url": "/staff-portal",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/staff-portal",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": true,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "SPPP - Enhanced Staff Portal Wireframe",
+        "h1Text": "Welcome Back, Ahmad!",
+        "navigationLinks": [
+          {
+            "text": "Dashboard",
+            "href": "/dashboard"
+          },
+          {
+            "text": "Training Management",
+            "href": "/training"
+          },
+          {
+            "text": "Participant Management",
+            "href": "/participants"
+          },
+          {
+            "text": "Reports & Analytics",
+            "href": "/reports"
+          },
+          {
+            "text": "Training Resources",
+            "href": "/resources"
+          },
+          {
+            "text": "Settings",
+            "href": "/settings"
+          },
+          {
+            "text": "Help & Support",
+            "href": "/help"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Contact",
+      "url": "/contact",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/contact",
+      "header": {
+        "hasHeader": true,
+        "hasHeaderTop": true,
+        "hasHeaderMain": false,
+        "hasLogo": true,
+        "hasNavigation": true,
+        "pageTitle": "Hubungi Kami - SPPP Wireframe",
+        "h1Text": "Hubungi Kami",
+        "navigationLinks": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": []
+    }
+  ],
+  "navigationAnalysis": [
+    {
+      "page": "Homepage",
+      "url": "/",
+      "navigation": {
+        "itemCount": 7,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about/leadership"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "page": "Infrastructure",
+      "url": "/infrastructure",
+      "navigation": {
+        "itemCount": 8,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 8"
+      ]
+    },
+    {
+      "page": "About Profile",
+      "url": "/about",
+      "navigation": {
+        "itemCount": 9,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 9",
+        "Missing navigation items: Latihan & Pembangunan, Hubungi Kami",
+        "Extra navigation items: Sumber, Kerjaya, Perkongsian"
+      ]
+    },
+    {
+      "page": "About Leadership",
+      "url": "/about/leadership",
+      "navigation": {
+        "itemCount": 9,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 9",
+        "Missing navigation items: Latihan & Pembangunan, Hubungi Kami",
+        "Extra navigation items: Sumber, Kerjaya, Perkongsian"
+      ]
+    },
+    {
+      "page": "Services",
+      "url": "/services",
+      "navigation": {
+        "itemCount": 8,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 8"
+      ]
+    },
+    {
+      "page": "Resources",
+      "url": "/resources",
+      "navigation": {
+        "itemCount": 10,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 10",
+        "Missing navigation items: Infrastruktur & Jalinan Perhubungan, Latihan & Pembangunan, Berita & Media, Hubungi Kami",
+        "Extra navigation items: Infrastruktur, Sumber, Berita, Kerjaya, Perkongsian"
+      ]
+    },
+    {
+      "page": "News",
+      "url": "/news",
+      "navigation": {
+        "itemCount": 10,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 10",
+        "Missing navigation items: Infrastruktur & Jalinan Perhubungan, Latihan & Pembangunan, Berita & Media, Hubungi Kami",
+        "Extra navigation items: Infrastruktur, Sumber, Berita, Kerjaya, Perkongsian"
+      ]
+    },
+    {
+      "page": "Careers",
+      "url": "/careers",
+      "navigation": {
+        "itemCount": 9,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 9",
+        "Missing navigation items: Latihan & Pembangunan, Hubungi Kami",
+        "Extra navigation items: Sumber, Kerjaya, Perkongsian"
+      ]
+    },
+    {
+      "page": "Partnerships",
+      "url": "/partnerships",
+      "navigation": {
+        "itemCount": 10,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Sumber",
+            "href": "/resources"
+          },
+          {
+            "text": "Berita",
+            "href": "/news"
+          },
+          {
+            "text": "Kerjaya",
+            "href": "/careers"
+          },
+          {
+            "text": "Perkongsian",
+            "href": "/partnerships"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 10",
+        "Missing navigation items: Infrastruktur & Jalinan Perhubungan, Latihan & Pembangunan, Berita & Media, Hubungi Kami",
+        "Extra navigation items: Infrastruktur, Sumber, Berita, Kerjaya, Perkongsian"
+      ]
+    },
+    {
+      "page": "Staff Portal",
+      "url": "/staff-portal",
+      "navigation": {
+        "itemCount": 7,
+        "items": [
+          {
+            "text": "Dashboard",
+            "href": "/dashboard"
+          },
+          {
+            "text": "Training Management",
+            "href": "/training"
+          },
+          {
+            "text": "Participant Management",
+            "href": "/participants"
+          },
+          {
+            "text": "Reports & Analytics",
+            "href": "/reports"
+          },
+          {
+            "text": "Training Resources",
+            "href": "/resources"
+          },
+          {
+            "text": "Settings",
+            "href": "/settings"
+          },
+          {
+            "text": "Help & Support",
+            "href": "/help"
+          }
+        ]
+      },
+      "issues": [
+        "Missing navigation items: Utama, Profil, Infrastruktur & Jalinan Perhubungan, Perkhidmatan, Latihan & Pembangunan, Berita & Media, Hubungi Kami",
+        "Extra navigation items: Dashboard, Training Management, Participant Management, Reports & Analytics, Training Resources, Settings, Help & Support"
+      ]
+    },
+    {
+      "page": "Contact",
+      "url": "/contact",
+      "navigation": {
+        "itemCount": 8,
+        "items": [
+          {
+            "text": "Utama",
+            "href": "/"
+          },
+          {
+            "text": "Profil",
+            "href": "/about"
+          },
+          {
+            "text": "Infrastruktur & Jalinan Perhubungan",
+            "href": "/infrastructure"
+          },
+          {
+            "text": "Perkhidmatan",
+            "href": "/services"
+          },
+          {
+            "text": "Latihan & Pembangunan",
+            "href": "/services/training"
+          },
+          {
+            "text": "Berita & Media",
+            "href": "/news"
+          },
+          {
+            "text": "Hubungi Kami",
+            "href": "/contact"
+          },
+          {
+            "text": "Utama",
+            "href": "/"
+          }
+        ]
+      },
+      "issues": [
+        "Navigation item count mismatch: expected 7, got 8"
+      ]
+    }
+  ],
+  "linkValidation": [
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/staff-portal",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/contact",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/about/leadership",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/infrastructure",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/services",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/services/training",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/news",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/resources/knowledge-base",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/partnerships",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/perkhidmatan/perundingan",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/penyelidikan",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/perkhidmatan/antarabangsa",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/perkhidmatan/tersuai",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/undang-undang/privacy",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/undang-undang/terms",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/undang-undang/accessibility",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/undang-undang/cookies",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "url": "https://sppp-wireframes-production.up.railway.app/undang-undang/spLaSK",
+      "status": 200,
+      "working": true,
+      "issues": []
+    }
+  ],
+  "sitemapAlignment": {
+    "foundPages": [],
+    "missingPages": [],
+    "brokenLinks": [],
+    "inconsistentHeaders": []
+  },
+  "summary": {
+    "totalPages": 11,
+    "pagesAnalyzed": 11,
+    "pagesWithHeaderIssues": 0,
+    "headerHealthRate": "100.0%",
+    "linksAnalyzed": 19,
+    "workingLinks": 19,
+    "brokenLinks": 0,
+    "linkHealthRate": "100.0%",
+    "navigationConsistency": {
+      "pagesWithNavIssues": 10,
+      "consistencyRate": "9.1%"
+    },
+    "commonIssues": [],
+    "siteStructure": {
+      "foundPages": 11,
+      "missingOrBrokenPages": 0,
+      "workingPages": [
+        {
+          "name": "Homepage",
+          "url": "/",
+          "title": "SPPP - Enhanced Homepage with Real Content",
+          "h1": "SELAMAT DATANG KE PORTAL RASMI PENANG PORT"
+        },
+        {
+          "name": "Infrastructure",
+          "url": "/infrastructure",
+          "title": "Infrastruktur & Jalinan Perhubungan - SPPP Wireframe",
+          "h1": "Infrastruktur & Jalinan Perhubungan"
+        },
+        {
+          "name": "About Profile",
+          "url": "/about",
+          "title": "SPPP - Organization Profile",
+          "h1": "Profil Organisasi SPPP"
+        },
+        {
+          "name": "About Leadership",
+          "url": "/about/leadership",
+          "title": "SPPP - Leadership Team Wireframe",
+          "h1": "Pasukan Kepimpinan SPPP"
+        },
+        {
+          "name": "Services",
+          "url": "/services",
+          "title": "Perkhidmatan & Program - SPPP Wireframe",
+          "h1": "Perkhidmatan & Program SPPP"
+        },
+        {
+          "name": "Resources",
+          "url": "/resources",
+          "title": "Sumber & Penerbitan - SPPP Wireframe",
+          "h1": "Sumber & Penerbitan SPPP"
+        },
+        {
+          "name": "News",
+          "url": "/news",
+          "title": "Berita & Acara - SPPP Wireframe",
+          "h1": "Berita & Acara SPPP"
+        },
+        {
+          "name": "Careers",
+          "url": "/careers",
+          "title": "SPPP - Career Opportunities Wireframe",
+          "h1": "Peluang Kerjaya di SPPP"
+        },
+        {
+          "name": "Partnerships",
+          "url": "/partnerships",
+          "title": "Perkongsian & Kerjasama - SPPP Wireframe",
+          "h1": "Perkongsian & Kerjasama SPPP"
+        },
+        {
+          "name": "Staff Portal",
+          "url": "/staff-portal",
+          "title": "SPPP - Enhanced Staff Portal Wireframe",
+          "h1": "Welcome Back, Ahmad!"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact",
+          "title": "Hubungi Kami - SPPP Wireframe",
+          "h1": "Hubungi Kami"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPPP - Organization Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Header Styles */
+        .header-top {
+            background: #003366;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .header-top .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .staff-portal-link {
+            background: #0066CC;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .staff-portal-link:hover {
+            background: #0052A3;
+        }
+
+        .header-main {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 3px solid #0066CC;
+        }
+
+        .header-main .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo h1 {
+            color: #003366;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation Styles - STANDARDIZED */
+        nav {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            padding: 0;
+        }
+
+        .nav-primary {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-primary a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-primary a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-primary a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .page-header h1 {
+            color: #003366;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .page-header p {
+            font-size: 1.3em;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .content-section h2 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #0066CC;
+            padding-bottom: 10px;
+        }
+
+        .content-section h3 {
+            color: #0066CC;
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .content-section ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        .content-section li {
+            margin-bottom: 8px;
+        }
+
+        /* Vision Mission Cards */
+        .vision-mission {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .vm-card {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .vm-card h3 {
+            color: #FF6600;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .vm-card p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        /* Values Section */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .value-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .value-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .value-card h4 {
+            color: #003366;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366;
+            color: white;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 20px;
+            color: #0066CC;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-main .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+            }
+
+            .page-header h1 {
+                font-size: 2em;
+            }
+
+            .content-section {
+                padding: 20px;
+            }
+
+            .vision-mission {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                📞 +60 4-210 2211 | ✉️ info@penangport.gov.my
+            </div>
+            <a href="/staff-portal" class="staff-portal-link">Portal Staf</a>
+        </div>
+    </div>
+
+    <!-- Header Main -->
+    <div class="header-main">
+        <div class="container">
+            <div class="logo">
+                <div style="width: 60px; height: 60px; background: #0066CC; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">SPPP</div>
+                <h1>Suruhanjaya Pelabuhan Pulau Pinang</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation - STANDARDIZED -->
+    <nav>
+        <div class="nav-primary">
+            <a href="/">Utama</a>
+            <a href="/about" class="active">Profil</a>
+            <a href="/infrastructure">Infrastruktur & Jalinan Perhubungan</a>
+            <a href="/services">Perkhidmatan</a>
+            <a href="/services/training">Latihan & Pembangunan</a>
+            <a href="/news">Berita & Media</a>
+            <a href="/contact">Hubungi Kami</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>Profil Organisasi SPPP</h1>
+            <p>Mengenali Suruhanjaya Pelabuhan Pulau Pinang - Sejarah, Visi, Misi dan Komitmen Kami Terhadap Kecemerlangan Pelabuhan</p>
+        </section>
+
+        <!-- About Section -->
+        <section class="content-section">
+            <h2>Tentang SPPP</h2>
+            <p>Suruhanjaya Pelabuhan Pulau Pinang (SPPP) ialah sebuah badan berkanun yang ditubuhkan di bawah Akta Suruhanjaya Pelabuhan Pulau Pinang 1955. Sebagai pihak berkuasa pelabuhan utama di negeri Pulau Pinang, SPPP bertanggungjawab dalam menguruskan dan membangunkan operasi pelabuhan di George Town.</p>
+            
+            <p>Sepanjang hampir tujuh dekad beroperasi, SPPP telah memainkan peranan penting dalam membangunkan ekonomi negeri dan negara melalui pengurusan pelabuhan yang cekap dan berkesan. Pelabuhan George Town kini merupakan salah satu pelabuhan utama di Malaysia yang mengendalikan pelbagai jenis kargo dan perkhidmatan pelabuhan.</p>
+
+            <h3>Sejarah Ringkas</h3>
+            <p>SPPP ditubuhkan pada tahun 1955 dengan objektif untuk memodenkan dan membangunkan kemudahan pelabuhan di Pulau Pinang. Dari sebuah pelabuhan tradisional, George Town telah berkembang menjadi pelabuhan moden yang dilengkapi dengan teknologi canggih dan kemudahan yang komprehensif.</p>
+        </section>
+
+        <!-- Vision Mission -->
+        <section class="vision-mission">
+            <div class="vm-card">
+                <h3>Visi</h3>
+                <p>Menjadi pelabuhan pilihan utama di rantau utara Malaysia yang menyediakan perkhidmatan pelabuhan berkualiti tinggi dan berdaya saing global.</p>
+            </div>
+            <div class="vm-card">
+                <h3>Misi</h3>
+                <p>Menyediakan kemudahan dan perkhidmatan pelabuhan yang cekap, selamat dan mesra alam untuk memenuhi keperluan pelanggan dan menyumbang kepada pertumbuhan ekonomi negara.</p>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="content-section">
+            <h2>Nilai-Nilai Teras</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h4>Kecemerlangan</h4>
+                    <p>Berkomitmen untuk mencapai standard tertinggi dalam semua aspek operasi</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h4>Integriti</h4>
+                    <p>Menjalankan urusan dengan jujur, telus dan beretika</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🌱</div>
+                    <h4>Kemampanan</h4>
+                    <p>Memastikan pembangunan yang lestari dan mesra alam</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🔧</div>
+                    <h4>Inovasi</h4>
+                    <p>Menggunakan teknologi terkini untuk meningkatkan kecekapan</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Functions Section -->
+        <section class="content-section">
+            <h2>Fungsi dan Tanggungjawab</h2>
+            <h3>Fungsi Utama SPPP:</h3>
+            <ul>
+                <li>Menguruskan dan mentadbir operasi Pelabuhan George Town</li>
+                <li>Menyediakan kemudahan dan perkhidmatan pelabuhan yang komprehensif</li>
+                <li>Membangun dan menyelenggara infrastruktur pelabuhan</li>
+                <li>Mengawal selia aktiviti pelabuhan dan keselamatan maritim</li>
+                <li>Mempromosikan perdagangan dan pelaburan melalui pelabuhan</li>
+            </ul>
+
+            <h3>Perkhidmatan Utama:</h3>
+            <ul>
+                <li>Perkhidmatan kargo kontena dan kargo am</li>
+                <li>Kemudahan penumpang dan feri</li>
+                <li>Perkhidmatan tunda dan pandu</li>
+                <li>Kemudahan pergudangan dan penyimpanan</li>
+                <li>Perkhidmatan logistik bersepadu</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p>📍 Suruhanjaya Pelabuhan Pulau Pinang<br>
+                George Town, Pulau Pinang<br>
+                📞 +60 4-210 2211<br>
+                ✉️ info@penangport.gov.my</p>
+            </div>
+            <div class="footer-section">
+                <h3>Pautan Pantas</h3>
+                <a href="/about">Profil SPPP</a>
+                <a href="/infrastructure">Infrastruktur</a>
+                <a href="/services">Perkhidmatan</a>
+                <a href="/about/leadership">Kepimpinan</a>
+            </div>
+            <div class="footer-section">
+                <h3>Maklumat</h3>
+                <a href="/resources">Sumber</a>
+                <a href="/partnerships">Perkongsian</a>
+                <a href="/legal/privacy">Dasar Privasi</a>
+                <a href="/legal/terms">Terma Penggunaan</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
