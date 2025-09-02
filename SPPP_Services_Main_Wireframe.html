@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkhidmatan & Program - SPPP Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Header Styles */
+        .header-top {
+            background: #003366;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .header-top .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .staff-portal-link {
+            background: #0066CC;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .staff-portal-link:hover {
+            background: #0052A3;
+        }
+
+        .header-main {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 3px solid #0066CC;
+        }
+
+        .header-main .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo h1 {
+            color: #003366;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation Styles - STANDARDIZED */
+        nav {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            padding: 0;
+        }
+
+        .nav-primary {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-primary a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-primary a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-primary a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .page-header h1 {
+            color: #003366;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .page-header p {
+            font-size: 1.3em;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .service-card h3 {
+            color: #003366;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .service-card p {
+            color: #666;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .service-features {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .service-features li {
+            padding: 5px 0;
+            color: #666;
+            border-bottom: 1px solid #eee;
+        }
+
+        .service-features li:before {
+            content: "✓";
+            color: #0066CC;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #0066CC, #003366);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            display: inline-block;
+            transition: transform 0.3s;
+            width: 100%;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        /* Stats Section */
+        .stats-section {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 12px;
+            margin: 50px 0;
+        }
+
+        .stats-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FF6600;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .contact-section p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .contact-method {
+            padding: 20px;
+            border: 2px solid #0066CC;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .contact-method:hover {
+            background: #f8f9fa;
+        }
+
+        .contact-method h4 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366;
+            color: white;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minMax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 20px;
+            color: #0066CC;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-main .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+            }
+
+            .page-header h1 {
+                font-size: 2em;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-section h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                📞 +60 4-210 2211 | ✉️ info@penangport.gov.my
+            </div>
+            <a href="/staff-portal" class="staff-portal-link">Portal Staf</a>
+        </div>
+    </div>
+
+    <!-- Header Main -->
+    <div class="header-main">
+        <div class="container">
+            <div class="logo">
+                <div style="width: 60px; height: 60px; background: #0066CC; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">SPPP</div>
+                <h1>Suruhanjaya Pelabuhan Pulau Pinang</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation - STANDARDIZED -->
+    <nav>
+        <div class="nav-primary">
+            <a href="/">Utama</a>
+            <a href="/about">Profil</a>
+            <a href="/infrastructure">Infrastruktur & Jalinan Perhubungan</a>
+            <a href="/services" class="active">Perkhidmatan</a>
+            <a href="/services/training">Latihan & Pembangunan</a>
+            <a href="/news">Berita & Media</a>
+            <a href="/contact">Hubungi Kami</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>Perkhidmatan & Program SPPP</h1>
+            <p>Rangkaian komprehensif perkhidmatan pelabuhan dan program pembangunan untuk memenuhi keperluan industri maritim</p>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">⚓</div>
+                <h3>Perkhidmatan Kargo</h3>
+                <p>Pengendalian kargo kontena dan kargo am dengan kemudahan moden dan sistem automatik untuk kecekapan maksimum.</p>
+                <ul class="service-features">
+                    <li>Pengendalian kontena 24/7</li>
+                    <li>Kemudahan kargo am dan curah</li>
+                    <li>Sistem penjejakan automatik</li>
+                    <li>Gudang berkawal iklim</li>
+                </ul>
+                <a href="/services/cargo" class="cta-button">Maklumat Lanjut</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🚢</div>
+                <h3>Perkhidmatan Kapal</h3>
+                <p>Perkhidmatan komprehensif untuk kapal termasuk perkhidmatan tunda, pandu dan kemudahan berlabuh.</p>
+                <ul class="service-features">
+                    <li>Perkhidmatan tunda 24/7</li>
+                    <li>Khidmat pandu berpengalaman</li>
+                    <li>Kemudahan berlabuh selamat</li>
+                    <li>Perkhidmatan bekalan kapal</li>
+                </ul>
+                <a href="/services/vessel" class="cta-button">Maklumat Lanjut</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎓</div>
+                <h3>Latihan & Pembangunan</h3>
+                <p>Program latihan profesional untuk pembangunan sumber manusia dalam industri pelabuhan dan maritim.</p>
+                <ul class="service-features">
+                    <li>Kursus sijil profesional</li>
+                    <li>Latihan keselamatan maritim</li>
+                    <li>Program pembangunan kemahiran</li>
+                    <li>Pensijilan antarabangsa</li>
+                </ul>
+                <a href="/services/training" class="cta-button">Program Latihan</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <h3>Perkhidmatan Logistik</h3>
+                <p>Penyelesaian logistik bersepadu untuk memudahkan pergerakan kargo dari pelabuhan ke destinasi.</p>
+                <ul class="service-features">
+                    <li>Pengurusan rantaian bekalan</li>
+                    <li>Perkhidmatan pergudangan</li>
+                    <li>Pengangkutan darat</li>
+                    <li>Pemprosesan kastam</li>
+                </ul>
+                <a href="/services/logistics" class="cta-button">Maklumat Lanjut</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Perkhidmatan Perundingan</h3>
+                <p>Khidmat perundingan pakar untuk pembangunan pelabuhan dan penyelesaian operasi maritim.</p>
+                <ul class="service-features">
+                    <li>Perundingan operasi pelabuhan</li>
+                    <li>Kajian kebolehlaksanaan</li>
+                    <li>Perancangan strategik</li>
+                    <li>Audit kecekapan operasi</li>
+                </ul>
+                <a href="/services/consulting" class="cta-button">Maklumat Lanjut</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Perkhidmatan Digital</h3>
+                <p>Platform digital dan e-perkhidmatan untuk memudahkan urusan pelabuhan secara dalam talian.</p>
+                <ul class="service-features">
+                    <li>Portal dalam talian</li>
+                    <li>Sistem tempahan automatik</li>
+                    <li>Penjejakan real-time</li>
+                    <li>Pembayaran digital</li>
+                </ul>
+                <a href="/services/digital" class="cta-button">Akses Portal</a>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <h2>Statistik Perkhidmatan</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Jenis Perkhidmatan</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Kapal Sebulan</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Program Latihan</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Kepuasan Pelanggan</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <h2>Hubungi Kami Untuk Perkhidmatan</h2>
+            <p>Pasukan pakar kami sedia membantu anda dengan sebarang keperluan perkhidmatan pelabuhan</p>
+            
+            <div class="contact-grid">
+                <div class="contact-method">
+                    <h4>📞 Hotline Perkhidmatan</h4>
+                    <p>+60 4-210 2211<br>24 jam sehari</p>
+                </div>
+                <div class="contact-method">
+                    <h4>✉️ E-mel Rasmi</h4>
+                    <p>services@penangport.gov.my<br>Respons dalam 2 jam</p>
+                </div>
+                <div class="contact-method">
+                    <h4>🌐 Portal Dalam Talian</h4>
+                    <p>Akses perkhidmatan digital<br>24/7 tersedia</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p>📍 Suruhanjaya Pelabuhan Pulau Pinang<br>
+                George Town, Pulau Pinang<br>
+                📞 +60 4-210 2211<br>
+                ✉️ info@penangport.gov.my</p>
+            </div>
+            <div class="footer-section">
+                <h3>Perkhidmatan Utama</h3>
+                <a href="/services/cargo">Perkhidmatan Kargo</a>
+                <a href="/services/vessel">Perkhidmatan Kapal</a>
+                <a href="/services/training">Latihan & Pembangunan</a>
+                <a href="/services/logistics">Perkhidmatan Logistik</a>
+            </div>
+            <div class="footer-section">
+                <h3>Maklumat</h3>
+                <a href="/resources">Sumber</a>
+                <a href="/partnerships">Perkongsian</a>
+                <a href="/legal/privacy">Dasar Privasi</a>
+                <a href="/legal/terms">Terma Penggunaan</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPPP - Leadership Team Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Header Styles */
+        .header-top {
+            background: #003366;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .header-top .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .staff-portal-link {
+            background: #0066CC;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .staff-portal-link:hover {
+            background: #0052A3;
+        }
+
+        .header-main {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 3px solid #0066CC;
+        }
+
+        .header-main .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo h1 {
+            color: #003366;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation Styles - STANDARDIZED */
+        nav {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            padding: 0;
+        }
+
+        .nav-primary {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-primary a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-primary a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-primary a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .page-header h1 {
+            color: #003366;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .page-header p {
+            font-size: 1.3em;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Leadership Grid */
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .leader-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .leader-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .leader-photo {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #003366, #0066CC);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .leader-card h3 {
+            color: #003366;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .leader-position {
+            color: #0066CC;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .leader-card p {
+            color: #666;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .qualifications {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .qualifications h4 {
+            color: #003366;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+
+        .qualifications ul {
+            list-style: none;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .qualifications li {
+            margin-bottom: 5px;
+        }
+
+        .qualifications li:before {
+            content: "•";
+            color: #0066CC;
+            margin-right: 8px;
+        }
+
+        /* Organizational Chart */
+        .org-chart {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 50px 0;
+        }
+
+        .org-chart h2 {
+            color: #003366;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2em;
+        }
+
+        .org-level {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .org-position {
+            background: linear-gradient(135deg, #003366, #0066CC);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 200px;
+        }
+
+        .org-position h4 {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .org-position p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366;
+            color: white;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 20px;
+            color: #0066CC;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-main .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+            }
+
+            .page-header h1 {
+                font-size: 2em;
+            }
+
+            .leadership-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .org-level {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                📞 +60 4-210 2211 | ✉️ info@penangport.gov.my
+            </div>
+            <a href="/staff-portal" class="staff-portal-link">Portal Staf</a>
+        </div>
+    </div>
+
+    <!-- Header Main -->
+    <div class="header-main">
+        <div class="container">
+            <div class="logo">
+                <div style="width: 60px; height: 60px; background: #0066CC; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 20px;">SPPP</div>
+                <h1>Suruhanjaya Pelabuhan Pulau Pinang</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation - STANDARDIZED -->
+    <nav>
+        <div class="nav-primary">
+            <a href="/">Utama</a>
+            <a href="/about" class="active">Profil</a>
+            <a href="/infrastructure">Infrastruktur & Jalinan Perhubungan</a>
+            <a href="/services">Perkhidmatan</a>
+            <a href="/services/training">Latihan & Pembangunan</a>
+            <a href="/news">Berita & Media</a>
+            <a href="/contact">Hubungi Kami</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>Pasukan Kepimpinan SPPP</h1>
+            <p>Mengenali pasukan kepimpinan yang berpengalaman dan berdedikasi dalam memandu SPPP mencapai kecemerlangan</p>
+        </section>
+
+        <!-- Leadership Grid -->
+        <section class="leadership-grid">
+            <div class="leader-card">
+                <div class="leader-photo">YB</div>
+                <h3>YB Datuk Ahmad Zakki Zahid</h3>
+                <div class="leader-position">Pengerusi</div>
+                <p>Memimpin SPPP dengan visi yang jelas untuk menjadikan Pelabuhan George Town sebagai hab pelabuhan terkemuka di rantau utara Malaysia.</p>
+                <div class="qualifications">
+                    <h4>Kelayakan & Pengalaman:</h4>
+                    <ul>
+                        <li>Sarjana Muda Kejuruteraan Awam</li>
+                        <li>Lebih 20 tahun pengalaman dalam sektor awam</li>
+                        <li>Bekas Ahli Dewan Undangan Negeri Pulau Pinang</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="leader-card">
+                <div class="leader-photo">SM</div>
+                <h3>Saminathan Muniandy</h3>
+                <div class="leader-position">Ketua Pegawai Eksekutif</div>
+                <p>Bertanggungjawab dalam operasi harian dan pelaksanaan strategi korporat SPPP dengan fokus kepada kecekapan operasi.</p>
+                <div class="qualifications">
+                    <h4>Kelayakan & Pengalaman:</h4>
+                    <ul>
+                        <li>Sarjana Muda Pentadbiran Perniagaan</li>
+                        <li>15 tahun pengalaman dalam pengurusan pelabuhan</li>
+                        <li>Sijil Profesional Pengurusan Maritim</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="leader-card">
+                <div class="leader-photo">MA</div>
+                <h3>Mohd Arif Hassan</h3>
+                <div class="leader-position">Ketua Operasi</div>
+                <p>Mengetuai operasi pelabuhan dan memastikan kelancaran aktiviti harian dengan standard keselamatan yang tinggi.</p>
+                <div class="qualifications">
+                    <h4>Kelayakan & Pengalaman:</h4>
+                    <ul>
+                        <li>Sarjana Muda Kejuruteraan Marin</li>
+                        <li>12 tahun pengalaman operasi pelabuhan</li>
+                        <li>Sijil Keselamatan Maritim Antarabangsa</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="leader-card">
+                <div class="leader-photo">SF</div>
+                <h3>Siti Fatimah Yusof</h3>
+                <div class="leader-position">Ketua Kewangan</div>
+                <p>Menguruskan kewangan dan perancangan strategik bagi memastikan kemampanan kewangan organisasi.</p>
+                <div class="qualifications">
+                    <h4>Kelayakan & Pengalaman:</h4>
+                    <ul>
+                        <li>Sarjana Muda Perakaunan</li>
+                        <li>Ahli Institut Akauntan Malaysia (MIA)</li>
+                        <li>10 tahun pengalaman dalam kewangan korporat</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="leader-card">
+                <div class="leader-photo">RK</div>
+                <h3>Raj Kumar Singh</h3>
+                <div class="leader-position">Ketua Teknologi</div>
+                <p>Memimpin inisiatif transformasi digital dan penyelenggaraan infrastruktur teknologi SPPP.</p>
+                <div class="qualifications">
+                    <h4>Kelayakan & Pengalaman:</h4>
+                    <ul>
+                        <li>Sarjana Sains Komputer</li>
+                        <li>Sijil Profesional Pengurusan Projek</li>
+                        <li>8 tahun pengalaman dalam teknologi pelabuhan</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="leader-card">
+                <div class="leader-photo">LH</div>
+                <h3>Lim Hwee Choo</h3>
+                <div class="leader-position">Ketua Sumber Manusia</div>
+                <p>Menguruskan pembangunan sumber manusia dan program latihan untuk meningkatkan kapasiti organisasi.</p>
+                <div class="qualifications">
+                    <h4>Kelayakan & Pengalaman:</h4>
+                    <ul>
+                        <li>Sarjana Pengurusan Sumber Manusia</li>
+                        <li>Sijil Profesional Pembangunan Sumber Manusia</li>
+                        <li>12 tahun pengalaman dalam HR korporat</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organizational Chart -->
+        <section class="org-chart">
+            <h2>Carta Organisasi</h2>
+            
+            <div class="org-level">
+                <div class="org-position">
+                    <h4>Pengerusi</h4>
+                    <p>YB Datuk Ahmad Zakki Zahid</p>
+                </div>
+            </div>
+
+            <div class="org-level">
+                <div class="org-position">
+                    <h4>Ketua Pegawai Eksekutif</h4>
+                    <p>Saminathan Muniandy</p>
+                </div>
+            </div>
+
+            <div class="org-level">
+                <div class="org-position">
+                    <h4>Ketua Operasi</h4>
+                    <p>Mohd Arif Hassan</p>
+                </div>
+                <div class="org-position">
+                    <h4>Ketua Kewangan</h4>
+                    <p>Siti Fatimah Yusof</p>
+                </div>
+                <div class="org-position">
+                    <h4>Ketua Teknologi</h4>
+                    <p>Raj Kumar Singh</p>
+                </div>
+                <div class="org-position">
+                    <h4>Ketua Sumber Manusia</h4>
+                    <p>Lim Hwee Choo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p>📍 Suruhanjaya Pelabuhan Pulau Pinang<br>
+                George Town, Pulau Pinang<br>
+                📞 +60 4-210 2211<br>
+                ✉️ info@penangport.gov.my</p>
+            </div>
+            <div class="footer-section">
+                <h3>Pautan Pantas</h3>
+                <a href="/about">Profil SPPP</a>
+                <a href="/infrastructure">Infrastruktur</a>
+                <a href="/services">Perkhidmatan</a>
+                <a href="/about/leadership">Kepimpinan</a>
+            </div>
+            <div class="footer-section">
+                <h3>Maklumat</h3>
+                <a href="/resources">Sumber</a>
+                <a href="/partnerships">Perkongsian</a>
+                <a href="/legal/privacy">Dasar Privasi</a>
+                <a href="/legal/terms">Terma Penggunaan</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

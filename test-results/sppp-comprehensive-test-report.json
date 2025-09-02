@@ -1,0 +1,594 @@
+{
+  "pageAccessibility": [
+    {
+      "page": "Homepage",
+      "url": "/",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/",
+      "status": 200,
+      "accessible": true,
+      "title": "SPPP - Enhanced Homepage with Real Content",
+      "h1": "Suruhanjaya Pelabuhan Pulau Pinang",
+      "hasNavigation": true,
+      "issues": []
+    },
+    {
+      "page": "Infrastructure",
+      "url": "/infrastructure",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/infrastructure",
+      "status": 200,
+      "accessible": true,
+      "title": "Infrastruktur & Jalinan Perhubungan - SPPP Wireframe",
+      "h1": "Suruhanjaya Pelabuhan Pulau Pinang",
+      "hasNavigation": true,
+      "issues": []
+    },
+    {
+      "page": "About Profile",
+      "url": "/about",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/about",
+      "status": 200,
+      "accessible": true,
+      "title": "SPPP - Organization Profile",
+      "h1": "Suruhanjaya Pelabuhan Pulau Pinang",
+      "hasNavigation": true,
+      "issues": []
+    },
+    {
+      "page": "About Leadership",
+      "url": "/about/leadership",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/about/leadership",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Services",
+      "url": "/services",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Services Training",
+      "url": "/services/training",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services/training",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Resources",
+      "url": "/resources",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/resources",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Resources Knowledge Base",
+      "url": "/resources/knowledge-base",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/resources/knowledge-base",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "News",
+      "url": "/news",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/news",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Careers",
+      "url": "/careers",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/careers",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Partnerships",
+      "url": "/partnerships",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/partnerships",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Staff Portal",
+      "url": "/staff-portal",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/staff-portal",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Contact",
+      "url": "/contact",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/contact",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Service Consultation",
+      "url": "/perkhidmatan/perundingan",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/perkhidmatan/perundingan",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Research",
+      "url": "/penyelidikan",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/penyelidikan",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "International Services",
+      "url": "/perkhidmatan/antarabangsa",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/perkhidmatan/antarabangsa",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Custom Services",
+      "url": "/perkhidmatan/tersuai",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/perkhidmatan/tersuai",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Privacy Policy",
+      "url": "/undang-undang/privacy",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/undang-undang/privacy",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Terms",
+      "url": "/undang-undang/terms",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/undang-undang/terms",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Accessibility",
+      "url": "/undang-undang/accessibility",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/undang-undang/accessibility",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "Cookies Policy",
+      "url": "/undang-undang/cookies",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/undang-undang/cookies",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "page": "SpLaSK",
+      "url": "/undang-undang/spLaSK",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/undang-undang/spLaSK",
+      "status": 404,
+      "accessible": false,
+      "title": "",
+      "h1": "",
+      "hasNavigation": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    }
+  ],
+  "linkValidation": [
+    {
+      "path": "/staff-portal",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/staff-portal",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/about",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/about",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "path": "/infrastructure",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/infrastructure",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "path": "/services",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/services/training",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services/training",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/news",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/news",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/contact",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/contact",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/careers",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/careers",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/resources",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/resources",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/partnerships",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/partnerships",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/legal/privacy",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/legal/privacy",
+      "status": 200,
+      "working": true,
+      "issues": []
+    },
+    {
+      "path": "/legal/terms",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/legal/terms",
+      "status": 200,
+      "working": true,
+      "issues": []
+    }
+  ],
+  "navigationConsistency": [
+    {
+      "page": "Homepage",
+      "url": "/",
+      "navigation": [
+        {
+          "text": "Utama",
+          "href": "/"
+        },
+        {
+          "text": "Profil",
+          "href": "/about"
+        },
+        {
+          "text": "Infrastruktur & Jalinan Perhubungan",
+          "href": "/infrastructure"
+        },
+        {
+          "text": "Perkhidmatan",
+          "href": "/services"
+        },
+        {
+          "text": "Latihan & Pembangunan",
+          "href": "/services/training"
+        },
+        {
+          "text": "Berita & Media",
+          "href": "/news"
+        },
+        {
+          "text": "Hubungi Kami",
+          "href": "/contact"
+        }
+      ],
+      "navigationCount": 7,
+      "issues": []
+    },
+    {
+      "page": "Infrastructure",
+      "url": "/infrastructure",
+      "navigation": [
+        {
+          "text": "Utama",
+          "href": "/"
+        },
+        {
+          "text": "Profil",
+          "href": "/about"
+        },
+        {
+          "text": "Infrastruktur & Jalinan Perhubungan",
+          "href": "/infrastructure"
+        },
+        {
+          "text": "Perkhidmatan",
+          "href": "/services"
+        },
+        {
+          "text": "Latihan & Pembangunan",
+          "href": "/services/training"
+        },
+        {
+          "text": "Berita & Media",
+          "href": "/news"
+        },
+        {
+          "text": "Hubungi Kami",
+          "href": "/contact"
+        }
+      ],
+      "navigationCount": 7,
+      "issues": []
+    },
+    {
+      "page": "About Profile",
+      "url": "/about",
+      "navigation": [
+        {
+          "text": "Utama",
+          "href": "/"
+        },
+        {
+          "text": "Profil",
+          "href": "/about"
+        },
+        {
+          "text": "Infrastruktur & Jalinan Perhubungan",
+          "href": "/infrastructure"
+        },
+        {
+          "text": "Perkhidmatan",
+          "href": "/services"
+        },
+        {
+          "text": "Latihan & Pembangunan",
+          "href": "/services/training"
+        },
+        {
+          "text": "Berita & Media",
+          "href": "/news"
+        },
+        {
+          "text": "Hubungi Kami",
+          "href": "/contact"
+        }
+      ],
+      "navigationCount": 7,
+      "issues": []
+    }
+  ],
+  "brokenLinks": [
+    {
+      "path": "/staff-portal",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/staff-portal",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/services",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/services/training",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/services/training",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/news",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/news",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/contact",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/contact",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/careers",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/careers",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/resources",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/resources",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    },
+    {
+      "path": "/partnerships",
+      "fullUrl": "https://sppp-wireframes-production.up.railway.app/partnerships",
+      "status": 404,
+      "working": false,
+      "issues": [
+        "HTTP 404 error"
+      ]
+    }
+  ],
+  "inconsistencies": [],
+  "summary": {
+    "pageAccessibility": {
+      "total": 22,
+      "accessible": 3,
+      "inaccessible": 19,
+      "accessibilityRate": "13.6%"
+    },
+    "linkValidation": {
+      "total": 12,
+      "working": 4,
+      "broken": 8,
+      "successRate": "33.3%"
+    },
+    "navigationConsistency": {
+      "pagesWithInconsistencies": 0,
+      "consistentPages": 3,
+      "consistencyRate": "100.0%"
+    },
+    "overallHealth": {
+      "score": 49,
+      "issues": 27
+    }
+  }
+}
