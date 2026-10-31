@@ -1,0 +1,81 @@
+{
+  "_readme": "Edit this one file to change the text on BOTH designs, then run: node build.mjs. Items marked [CONFIRM] are placeholders or unverified public-source facts the Home must confirm before launch.",
+
+  "org": {
+    "name": "Lighthouse Children Welfare Home Association",
+    "short": "Lighthouse Children's Home",
+    "region": "Kuala Lumpur & Selangor",
+    "tagline": "A safe harbour for children who need one.",
+    "description": "A non-profit welfare home in Bangsar, Kuala Lumpur, giving shelter, schooling support and care to underprivileged children and youths, including those who have experienced abuse or neglect.",
+    "address": ["115 Jalan Cenderai, Lucky Garden", "Bangsar, 59100 Kuala Lumpur"],
+    "street": "115 Jalan Cenderai, Lucky Garden, Bangsar",
+    "city": "Kuala Lumpur",
+    "postcode": "59100",
+    "phone": "+60 17-253 4566",
+    "phoneRaw": "60172534566",
+    "email": "enquiry@lighthousechildrenshomekl.com",
+    "facebook": "https://www.facebook.com/lighthousewelfare/",
+    "instagram": "[CONFIRM] handle",
+    "domain": "https://www.lighthousechildrenshomekl.com/",
+    "registered": "Registered with the Registrar of Societies, Malaysia [CONFIRM year and registration no.]"
+  },
+
+  "stats": [
+    { "value": "3", "label": "homes run by the Association", "source": "The Vibes, 2024 [CONFIRM]" },
+    { "value": "6–21", "label": "ages of the children and youths in our care", "source": "CSR report 2020 [CONFIRM]" },
+    { "value": "RM40k+", "label": "needed every month to keep the lights on and the kitchen full", "source": "The Vibes, 2024 [CONFIRM]" },
+    { "value": "100%", "label": "of the Home is run on public donations", "source": "Public sources [CONFIRM]" }
+  ],
+
+  "about": {
+    "heading": "Every child deserves a home that holds steady.",
+    "body": [
+      "Lighthouse Children Welfare Home Association gives shelter to children and young people who have nowhere safe to go. For many, this is the first place where meals are regular, bedtime is calm and an adult is always nearby.",
+      "The Home is run by a dedicated committee and caregivers, and depends on the generosity of Malaysians to cover food, schooling, medical care and the daily running costs of three homes across Kuala Lumpur and Selangor."
+    ],
+    "pullquote": "[CONFIRM] A short quote from the founders or a caregiver goes here.",
+    "pullquoteBy": "Founder, Lighthouse Children's Home"
+  },
+
+  "programs": [
+    { "title": "Safe shelter", "text": "A secure, loving home with caregivers present day and night.", "icon": "home" },
+    { "title": "Education", "text": "School fees, uniforms, tuition and books so no child falls behind.", "icon": "book" },
+    { "title": "Health & wellbeing", "text": "Nutritious meals, medical care and counselling support.", "icon": "heart" },
+    { "title": "Skills & joy", "text": "Music, sport, festive celebrations and life skills for the road ahead.", "icon": "music" }
+  ],
+
+  "gifts": [
+    { "amount": "RM30", "per": "per month", "text": "Provides a week of nutritious meals for one child [CONFIRM] amounts" },
+    { "amount": "RM100", "per": "per month", "text": "Covers school supplies and tuition support for one child [CONFIRM] amounts" },
+    { "amount": "RM300", "per": "per month", "text": "Helps pay utilities and daily running costs of a home [CONFIRM] amounts" },
+    { "amount": "Any", "per": "amount", "text": "Every ringgit goes to the children's daily needs" }
+  ],
+
+  "waysToHelp": [
+    { "title": "Give monthly", "text": "A steady gift lets the Home plan ahead, and is the single most useful thing you can do." },
+    { "title": "Give once", "text": "Cover a special need: medical bills, school fees, a festive celebration." },
+    { "title": "Give goods", "text": "Clothes, toys, books and festive treats are always welcome. Please call ahead." },
+    { "title": "Give time", "text": "Tutor, mentor, play music or share a skill with the children." }
+  ],
+
+  "news": [
+    { "date": "[CONFIRM]", "tag": "Celebration", "title": "Christmas carolling with our children", "text": "Placeholder: pull real posts from the Facebook page." },
+    { "date": "[CONFIRM]", "tag": "Appeal", "title": "Help us keep the lights on", "text": "Placeholder: pull real posts from the Facebook page." },
+    { "date": "[CONFIRM]", "tag": "Thank you", "title": "Donors and volunteers who made this year possible", "text": "Placeholder: pull real posts from the Facebook page." }
+  ],
+
+  "donate": {
+    "intro": "Giving to Lighthouse is a simple bank transfer. There are no fees and no accounts to create. Please follow the three steps below.",
+    "bank": {
+      "accountName": "[CONFIRM] Exact account name",
+      "bankName": "[CONFIRM] Bank name",
+      "accountNumber": "[CONFIRM] 0000 0000 0000",
+      "duitnow": "[CONFIRM] DuitNow ID / QR code",
+      "reference": "Your name + DONATION"
+    },
+    "warning": "To protect you from scams, always confirm bank details by calling the Home on +60 17-253 4566 before your first transfer.",
+    "receipt": "Send your transfer slip with your name and email to us on WhatsApp or email so we can thank you and issue a receipt [CONFIRM receipt / tax policy]."
+  },
+
+  "privacy": "We never publish children's names or faces without written consent and guardian approval. Photos on this site are illustrations."
+}
